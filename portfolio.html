@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .body{
+                background: white ;
+                background-size: cover;
+                height:100vh;
+                margin:0;
+            }
+            .header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+            background-color: rgb(31, 30, 30);
+        }
+        .tag a {
+            font-size:22px ;
+            margin-right: 15px;
+            text-decoration: none;
+            color: white;
+        }
+            .logo{
+                margin-right: auto;
+                font-size: 25px;
+                color:white;
+                text-decoration: none;
+                margin-left:30px;
+            }
+          
+           
+        .text{
+            color:black;
+            max-width: 580px;
+            margin-top: 160px;
+            margin-left: 200px;
+            font-size:30px;
+
+        }
+        .position{
+             float:right;
+             margin-top: 150px;
+             margin-right:280px;
+             height:450px;
+             width: 380px;
+             border-radius: 50%;
+        }
+        .sticker a{
+            text-decoration: none;
+            font-size: 28px;
+           
+            align-items: center;
+            display: inline-flex;
+            justify-content: center;
+            width:40px;
+            height: 40px;
+           
+            color:black;
+           margin:5px 20px 0px 0px;
+           justify-content: right;
+           
+        }
+        .sticker a i{
+            margin-left: 450px;
+           
+        }
+        .about{
+            color:orangered;
+            font-size:35px;
+            text-align: left;
+            margin-left: 60px;
+            margin-top: 50px;
+        }
+        .p{
+            color:white;
+            max-width: 650px;
+            font-size:23px;
+            float:right;
+            margin-top: 40px;
+            margin-right: 150px;
+            font-style:oblique;
+        }
+        .skills{
+            color:orangered;
+            font-size:30px;
+            text-align: left;
+            margin-left: 60px;
+        }
+        .dp{
+            width:370px;
+            height:370px;
+            border-radius: 50%;
+            overflow:hidden;
+            margin-left:120px;
+            border: 15px groove #f7b9bd;
+         }
+         .dp img{
+            width:100%;
+         }
+       
+       
+        h3{
+            margin:5px;
+        }
+        .ts{
+            width:700px;
+            font-size: 25px;
+            color:white;
+            margin:60px auto;
+            padding:20px;
+            box-shadow: 2px 2px 6px rgb(173, 173, 173);
+            text-align: left;
+            
+            margin-left: 240px;
+        }
+     
+       
+        .bar{
+            display: block;
+            background: rgb(240, 197, 240);
+            height:20px;
+            border:1px solid #151B54;
+            border-radius: 10px;
+            overflow:hidden;
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            box-shadow: 0 14px 28px whitesmoke;
+        }
+        .bar:hover{
+            box-shadow: 0 14px 28px whitesmoke;
+        }
+        .bar span{
+            height:20px;
+            float:left;
+            background: linear-gradient(135deg, rgb(188, 2, 123)0%,rgb(180, 7, 85));
+
+        }
+        .HTML{
+            width:90%;
+            animation: HTML 3s;
+        }
+        .CSS{
+            width:70%;
+            animation: CSS 3s;
+        }
+        .Js{
+            width:65%;
+            animation: Js 3s;
+        }
+        .Python{
+            width:50%;
+            animation: Python 3s;
+        }
+        @keyframes HTML {
+            0%{
+                width:0%;
+            }
+            100%{
+                width:90%;
+            }
+        }
+        @keyframes CSS {
+            0%{
+                width:0%;
+            }
+            100%{
+                width:70%;
+            }
+        }
+        @keyframes Js {
+            0%{
+                width:0%;
+            }
+            100%{
+                width:65%;
+            }
+        }
+        @keyframes Python {
+            0%{
+                width:0%;
+            }
+            100%{
+                width:50%;
+            }
+        }
+      
+
+   
+        
+        .contact{
+            color:orangered;
+            font-size:40px;
+            text-align: left;
+            margin-left: 60px;
+        }
+      
+      .t{
+        font-size:26px;
+        font-style: oblique;
+        color:white;
+        width:600px;
+        margin-left: 50px;
+      }
+      .info{
+        font-size:20px;
+        font-style: oblique;
+        color:white;
+        width:500px;
+        margin-left: 50px;
+      }
+      .box{
+                background-color: rgb(232, 136, 101);
+                border:3px 3px solid white;
+                box-shadow: 5px 5px 10px whitesmoke;
+                border-radius: 5px;
+                width:400px;
+                height:220px;
+                float:right;
+                margin-right: 100px;
+               
+            }
+            .form{
+                
+                color:white;
+                font-size: 20px;
+                font-style:initial;
+                text-align: center;
+            }
+            .ach{
+            color:orangered;
+            font-size:40px;
+            text-align: left;
+            margin-left: 60px;
+        }
+        .certificates{
+            height:210px;
+            width:270px;
+          
+        }
+        .cv{
+            font-size: 26px;
+            color:white;
+        }
+        .view{
+            text-align:center;
+            font-size: 23px;
+            background-color: orangered;
+            color:white;
+            box-shadow: 2px 2px 5px whitesmoke;
+            border: 1px solid white;
+            width:70px;
+            border-radius: 3px;
+            font-style: oblique;
+           cursor: pointer;
+            
+        }
+        .view:hover{
+            background-color: rgb(115, 115, 159);
+        }
+        .name{
+            color:orangered;
+            font-size: 25px;
+        }
+        .portfolio{
+            color:orangered;
+            text-decoration: underline;
+            font-size: 22px;
+            margin-right: 15px;
+        }
+        .me{
+            color:orangered;
+        }
+        .container{
+            background-color: black;
+            background-size: cover;
+                height:365vh;
+                margin:0;
+        }
+       
+            </style>
+            <div class="body">
+             <div class="header">
+               <a href="#" class="logo"><b>Kas<span class="name">hish</span></b></a>
+              
+               <a href="#" class="portfolio"><b>Portfolio</b></a>
+               <div class="tag">
+               
+                
+                <a href="#"><b>About</b></a>
+                <a href="#"><b>Skills</b></a>
+                <a href="#"><b>Projects</b></a>
+                <a href="#"><b>Contact</b></a>
+               
+               </div>
+            
+
+             
+               
+            </div>
+            <img src="C:/Users/kashish/OneDrive/Desktop/material/dp.jpg" class="position" alt="Profile Picture">
+            <div class="text">
+                <h2>Hello</h2>
+                <h1> I'm <span class="me">Kashish</span> <br>a front-end developer</h1>
+                
+                <p>Seeking an entry-level position to begin my career in a high-level professional environment.</p>
+                <div class="sticker">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>  
+            </div>
+           
+       <br>
+      
+      
+        <br>
+        <br>
+        <div class="container">
+            <div class="about">
+                <br>
+                
+                <h1><b>About Me</b></h1>
+                <img src="C:/Users/kashish/OneDrive/Desktop/material/pp.jpg" class="dp">
+                <div class="p">
+                    
+                <p>Hello! I’m Kashish, a budding web developer with a passion for creating engaging and user-friendly websites. As a fresher in the field, I bring a fresh perspective and a strong desire to learn and grow. My journey in web development is fueled by curiosity and a love for crafting digital experiences that captivate and inspire.</p>
+                <p>I specialize in HTML, CSS, and JavaScript, with a keen interest in front-end development and design. Through my projects, I aim to blend functionality with aesthetics, ensuring seamless navigation and visually appealing interfaces. I’m excited to embark on this journey, explore new technologies, and contribute to the ever-evolving web landscape.</p>
+            </div>
+            <br>
+            </div>
+
+            <br>
+            <br>
+            
+            <div class="skills">
+                <br>
+                <h1>My Skills</h1>
+               
+                <div class="ts">
+                    <h2>Technical Skills</h2>
+                    
+                        <h3>HTML</h3>
+                      <span class="bar"><span class="HTML"></span></span>
+                    <br>
+
+                    <h3>CSS</h3>
+                      <span class="bar"><span class="CSS"></span></span>
+                    <br>
+
+                    <h3>Js</h3>
+                      <span class="bar"><span class="Js"></span></span>
+                    <br>
+
+                    <h3>Python</h3>
+                      <span class="bar"><span class="Python"></span></span>
+                    <br>
+                  </div>
+                
+            </div>
+          <div class="ach">
+            <br>
+            <h2>Achievements and certificates <i class="fa-solid fa-star"></i></h2>
+
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (6).png" class="certificates">
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (7).png" class="certificates">
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (8).png" class="certificates">
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (9).png" class="certificates">
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (10).png"  class="certificates">
+                <br>
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (11).png" class="certificates">
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (12).png" class="certificates">
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (13).png" class="certificates">
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (14).png" class="certificates">
+                <img src="C:/Users/kashish/OneDrive/Pictures/Screenshots/Screenshot (15).png" class="certificates">
+           
+          </div>
+           
+            <div class="contact">
+                <br>
+                <h2>Reach out To Me</h2>
+                <div class="box">
+                    <div class="form">
+                <br><p> Enter your name: <input></p>
+                <p> Enter your e-mail: <input></p>
+                <p> Enter your message: <input ></p>
+                <input class="input" type="submit" value="submit">
+                    </div>
+                   </div>
+                <div class="t">
+                    <p>
+                        Connecting creativity with code, let's build something amazing together. Reach out and let's craft your digital vision into reality.
+                        
+                        </p>
+                       
+                </div>
+                <div class="info">
+                    <p><i class="fa-solid fa-phone"></i> 9311638292</p>
+                    <p><i class="fa-solid fa-paper-plane"></i> gautamkashish@gmail.com</p>
+                  
+                </div>
+                <br>
+                <br>
+                <div class="cv">
+                    <h3>View My Resume: <a href="resume.html"><button class="view"><b>View</b></button></a></h3>
+                    
+                </div>
+              <br>
+              <br>
+               </div>
+
+        </div>
+    </div>
+    </head>
+    <body >
+    </body>
+</html>
